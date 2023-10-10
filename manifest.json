@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "CSAMstopper",
+    "description": "CSAM detector",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "icons": {
+        "robot": "images/robot.png"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

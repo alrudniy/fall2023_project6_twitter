@@ -1,1 +1,0 @@
-Rosicela Luna

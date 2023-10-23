@@ -3,7 +3,18 @@
     "name": "CSAMstopper",
     "description": "CSAM detector",
     "version": "1.0",
-    "action": {
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "background": {
+            "js": ["background.js"]
+        }
+   ,"action": {
         "default_popup": "popup/popup.html"
     },
     "icons": {

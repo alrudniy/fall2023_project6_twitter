@@ -8,23 +8,17 @@
             "matches": [
                 "<all_urls>"
             ],
-            "js": ["content.js"]
+            "js": ["ContentScript/content.js"]
         }
     ],
-    "background": {
-            "js": ["background.js"]
-        }
-   ,"action": {
+    "action": {
         "default_popup": "popup/popup.html"
     },
-    "icons": {
-        "robot": "images/robot.png"
-    },
     "background": {
-        "service_worker": "background.js",
+        "js": "BackgroundScript/background.js",
         "type": "module"
     },
     "permissions": [
-        "storage"
+        "storage", "webNavigation", "tabs"
     ]
 }

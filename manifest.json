@@ -16,6 +16,7 @@
     },
     "background": {
         "js": "BackgroundScript/background.js",
+        "persistent": true,
         "type": "module"
     },
     "permissions": [

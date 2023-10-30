@@ -15,7 +15,6 @@ chrome.runtime.onInstalled.addListener(function () {
     alert(response)
     
     
-    
     if (message.action === "startAnalysis") {
       // Handle the message and perform analysis or other actions here.
       // For example, you can pass a message to a content script.

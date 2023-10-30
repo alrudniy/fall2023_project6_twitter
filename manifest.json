@@ -5,8 +5,10 @@
     "version": "1.0",
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
-            "js": ["ContentScript/content.js"]
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["ContentScript/testcontent.js"]
         }
     ],
     "action": {

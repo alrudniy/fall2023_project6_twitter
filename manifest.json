@@ -8,7 +8,7 @@
             "matches": [
                 "<all_urls>"
             ],
-            "js": ["ContentScript/content.js"]
+            "js": ["ContentScript/testcontent.js"]
         }
     ],
     "action": {
@@ -16,7 +16,6 @@
     },
     "background": {
         "js": "BackgroundScript/background.js",
-        "persistent": true,
         "type": "module"
     },
     "permissions": [

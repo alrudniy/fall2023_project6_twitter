@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.content-wrapper{
+    padding: 10px;
+}
+p{
+    text-align:center; 
+}
+h1{
+    color: black; 
+    padding: 10px; 
+    text-align: center
+}
+
+
+

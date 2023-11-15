@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Popup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+
+    <style>
+        .Startbutton {
+            background-color: lightblue;
+            border: none;
+            color: black;
+            width: 150px; /* Set the width and height to the same value for a perfect circle */
+            height: 150px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 50%; /* Make the button round */
+        }
+
+        .button1 {
+            font-size: 30px;
+        }
+
+        .footer{
+            width: 100%; /* Use 100% to span the entire width of the popup */
+            height: 30px;
+            position: absolute; /* Use absolute positioning for precise placement */
+            bottom: 0;
+            left: 0; /* Adjust left to center horizontally */
+            right: 0; /* Adjust right to center horizontally */
+            text-align: center; /* Center text horizontally */
+        }
+        body {
+            background-color: #92a1ff;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+        }
+
+        .popup {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body style="width: 300px; height: 400px;">
+    <div class="popup">
+        <h1>CSAMStopper</h1>
+        <p>Keep Your Children Safe Online!</p>
+        <button class="Startbutton pure-button-primary">TURN ON</button> 
+        <a href="submit" formaction="https://www.google.com"><button class = "footer pure-button-primary">Enter Auth Code</button></a>
+    </div>
+</body>
+</html>

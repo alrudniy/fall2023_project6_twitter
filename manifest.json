@@ -8,14 +8,14 @@
             "matches": [
                 "<all_urls>"
             ],
-            "js": ["ContentScript/content.js"]
+            "js": ["ContentScript/testcontent.js"]
         }
     ],
     "action": {
         "default_popup": "popup/popup.html"
     },
     "background": {
-        "js": "BackgroundScript/background.js",
+        "service_worker": "BackgroundScript/background.js",
         "type": "module"
     },
     "permissions": [

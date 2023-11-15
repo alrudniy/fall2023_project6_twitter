@@ -8,16 +8,17 @@
             "matches": [
                 "<all_urls>"
             ],
-            "js": ["ContentScript/testcontent.js"]
+            "css": ["ContentScript/styles.css"],
+            "js": ["ContentScript/testcontent.js", "ContentScript/forbiddenWords.js"]
         }
     ],
     "action": {
         "default_popup": "popup/popup1.html"
     },
-    "background": {
-        "service_worker": "BackgroundScript/background.js",
-        "type": "module"
-    },
+    //"background": {
+    //    "service_worker": "BackgroundScript/background.js",
+    //    "type": "module"
+    //}
     "permissions": [
         "storage", "webNavigation", "tabs"
     ]

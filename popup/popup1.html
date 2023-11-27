@@ -2,13 +2,13 @@
 <html>
 <head>
     <title>Main Popup</title>
-    <link rel="stylesheet" type="text/css" href="popup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
 
     <style>
-        .button {
-            background-color: black;
+        .Startbutton {
+            background-color: lightblue;
             border: none;
-            color: white;
+            color: black;
             width: 150px; /* Set the width and height to the same value for a perfect circle */
             height: 150px;
             text-align: center;
@@ -24,10 +24,13 @@
         }
 
         .footer{
-            width: 900px;
+            width: 100%; /* Use 100% to span the entire width of the popup */
             height: 30px;
-            position: middle;
+            position: absolute; /* Use absolute positioning for precise placement */
             bottom: 0;
+            left: 0; /* Adjust left to center horizontally */
+            right: 0; /* Adjust right to center horizontally */
+            text-align: center; /* Center text horizontally */
         }
         body {
             background-color: #92a1ff;

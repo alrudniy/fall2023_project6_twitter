@@ -1,5 +1,7 @@
 .forbidden-div {
     border: 2px solid red !important;
     background-color: #ffe6e6 !important;
+    height: 1080px;
+    weight: 1920px;
   }
   

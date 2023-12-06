@@ -4,6 +4,8 @@ function extractTextContent() {
   return textContent;
 }
 
+//Parse textContent?
+
 // Send the extracted content to the background script
 function sendTextContentToBackgroundScript(content) {
   chrome.runtime.sendMessage({ action: "extractedContent", content });
@@ -16,3 +18,4 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
     sendTextContentToBackgroundScript(extractedContent);
   }
 });
+
